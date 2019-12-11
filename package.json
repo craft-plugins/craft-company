@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "scripts": {
+    "build": "parcel build src/assetbundle/src/field.js --out-dir src/assetbundle/dist",
+    "dev": "parcel src/assetbundle/src/field.js --out-dir src/assetbundle/dist"
+  },
+  "dependencies": {
+    "autocomplete.js": "^0.37.0",
+    "axios": "^0.19.0"
+  }
+}

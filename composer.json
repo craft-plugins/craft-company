@@ -1,0 +1,19 @@
+{
+  "name": "craft-plugins/craft-company",
+  "description": "Company autocomplete field for Craft CMS.",
+  "version": "0.1.0",
+  "type": "craft-plugin",
+  "license": "proprietary",
+  "require": {
+    "craftcms/cms": "^3.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "craftplugins\\company\\": "src/"
+    }
+  },
+  "extra": {
+    "name": "Company Autocomplete",
+    "handle": "company"
+  }
+}

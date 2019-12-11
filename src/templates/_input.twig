@@ -1,0 +1,8 @@
+<div class="company-field">
+  <input type="hidden" name="{{ name }}"
+         value="{{ value ? value|json_encode }}"
+         class="company-field-value">
+  <input type="text"
+         class="company-field-input text fullwidth"
+         value="{{ value ? value.name }}">
+</div>
