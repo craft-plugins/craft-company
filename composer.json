@@ -1,7 +1,6 @@
 {
   "name": "craft-plugins/craft-company",
   "description": "Company autocomplete field for Craft CMS.",
-  "version": "0.1.0",
   "type": "craft-plugin",
   "license": "proprietary",
   "require": {
